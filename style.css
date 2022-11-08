@@ -1,0 +1,11 @@
+* {box-sizing: border-box;}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(16, 50px [col-start]);
+}
+
+.container div{
+    height: 50px;
+    background-color: black;
+}
